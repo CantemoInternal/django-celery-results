@@ -22,8 +22,7 @@ class Migration(migrations.Migration):
             ],
             options={
                 'verbose_name': 'saved group result',
-                'verbose_name_plural': 'saved group results',
-                'db_table': 'celery_tasksetmeta',
+                'verbose_name_plural': 'saved group results'
             },
         ),
     ]
