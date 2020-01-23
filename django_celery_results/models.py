@@ -120,7 +120,6 @@ class TaskSetMeta(models.Model):
         """Model meta-data."""
         verbose_name = _('saved group result')
         verbose_name_plural = _('saved group results')
-        db_table = 'celery_tasksetmeta'
 
     def to_dict(self):
         return {'taskset_id': self.taskset_id,
